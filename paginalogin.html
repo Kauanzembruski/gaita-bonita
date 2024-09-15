@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>gaitabonitalogin</title>
+</head>
+<body>
+    <header>
+        <img src="../img/pampiana.jpg" alt="gaita logo">
+
+       
+        <nav>
+          <ul id="menu">  
+            <li><a href="../paginal inicial/index.html">Pagina Inicial</a></li>
+            <li><a href="../modelos/modelos.html">Modelos</a></li>
+            <li><a href="../acessorios/acessorios.html">Acessórios</a></li>
+            <li><a href="../sobrenos/sobre.html">Sobre Nós</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+           
+ 
+         <form action="../paginal inicial/index.html" method="post">
+            <p><label for="nome">Nome: </label> 
+            <input type="text" name="nome" id="nome" maxlength="100" required pattern="[aA-zZ\s]+$"></p>
+            <p><label for="email">Email: </label>
+            <input type="email" name="email" id="email" required></p>
+            <p><label for="senha">Senha: </label>
+            <input type="password" name="senha" id="senha" size="8" required> </p>
+            <p><label for="numero">Número:  </label>
+            <input type="text" name="numero" id="numero" pattern="[0-9]+$"></p>
+            <p>Selecione seu estado</p>
+                <p><select name="Seu estado" required>
+                <option value=""> -escolha- </option>
+                <option value="RS"> Rio Grande do Sul</option> 
+                <option value="SC"> Santa Catarina</option> 
+                <option value="PR"> Paraná</option> 
+                <option value="SP"> São Paulo</option> 
+                <option value="RJ"> Rio de Janeiro</option> 
+                <option value="MT"> Mato grosso</option> 
+                <option value="MS"> Mato Grosso do Sul</option> 
+                <option value="MG"> Minas Gerais</option>
+            </select></p>
+                      
+
+
+
+            <input type="submit">
+         <p>Jà possui login?<a href="../paginalogin/japossuilogin.html"> Clique aqui!</a></p>
+    
+        
+        </form>
+        <footer>
+            <ul>
+                <li>Número: <a target="_blank" href="https://wa.me/54996636594"> (54)9 9663-6594 </a></li>
+                <li>Instagram: <a target="_blank" href="https://www.instagram.com/kauan__zembruski?igsh=MTBnZnE2NWNzcXRqNg==">  @Kauanzembruski </a></li>
+               
+            </ul>
+          </footer>
+      </main>   
+</body>
+</html>
